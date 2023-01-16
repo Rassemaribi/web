@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script  src="..\js\contact.js"> </script>
+    <LINK href="..\css\style.css" rel="stylesheet">
+    <title>contact</title>
+</head>
+
+<body background="..\images\ph1.jpg">
+    <center>
+        <p class=titre> CONTACT </p>
+    </center>
+    <hr>
+    <section>
+        <br>
+        <fieldset>
+            <legend>FORMULAIRE</legend>
+            <form name="form" action="">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="nom">Nom : </label>
+                        </td>
+                        <td>
+                            <input type="text" name="nom" placeholder="nom" size="30" maxlength="10"
+                                autofocus required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="prenom">Prenom : </label>
+                        </td>
+                        <td>
+                            <input type="text" name="prenom" placeholder="prenom" size="30" maxlength="10"
+                                autofocus required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Date se naissance:
+                        </td>
+                        <td>
+                            <input type="date" name="date" id="date" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email"> Adresse electronique :</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email"  placeholder="e-mail" size="30"
+                                autofocus required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                    <tr>
+                        <td>
+                            <label for="pseudo">Questions et Commantaires : </label>
+                        </td>
+                        <td>
+                            <textarea name="commentaires" id="commentaires" rows="10" cols="60">
+
+                                    </textarea>
+                        </td>
+                    </tr>
+                    </td>
+                </tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td>
+                            <input type="submit" value="envoyer" id="envoyer" onclick=" verification();"  />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <script src="..\js\contact.js"> </script>
+        </fieldset>
+    </section>
+    <br><br>
+</body>
+<a  class=ii href="..\accueil.html"  target="_blank">  <img src="..\images/HOME.png" height="45" width="45"></a>
+<footer>
+    <p class=p1>aribi racem © Copyright 2022</p>
+</footer>
+
+</html>
